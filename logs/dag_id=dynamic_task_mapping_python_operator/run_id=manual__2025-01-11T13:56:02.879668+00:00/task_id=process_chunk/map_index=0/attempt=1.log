@@ -1,0 +1,27 @@
+[2025-01-11T13:56:19.567+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-11T13:56:20.018+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dynamic_task_mapping_python_operator.process_chunk manual__2025-01-11T13:56:02.879668+00:00 map_index=0 [queued]>
+[2025-01-11T13:56:20.493+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dynamic_task_mapping_python_operator.process_chunk manual__2025-01-11T13:56:02.879668+00:00 map_index=0 [queued]>
+[2025-01-11T13:56:20.525+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-11T13:56:21.294+0000] {taskinstance.py:2889} INFO - Executing <Mapped(PythonOperator): process_chunk> on 2025-01-11 13:56:02.879668+00:00
+[2025-01-11T13:56:21.543+0000] {standard_task_runner.py:72} INFO - Started process 1884 to run task
+[2025-01-11T13:56:21.623+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dynamic_task_mapping_python_operator', 'process_chunk', 'manual__2025-01-11T13:56:02.879668+00:00', '--job-id', '903', '--raw', '--subdir', 'DAGS_FOLDER/experiments/dynamic_task_mapping_sequentials.py', '--cfg-path', '/tmp/tmp5afoj1wm', '--map-index', '0']
+[2025-01-11T13:56:21.648+0000] {standard_task_runner.py:105} INFO - Job 903: Subtask process_chunk
+[2025-01-11T13:56:22.142+0000] {task_command.py:467} INFO - Running <TaskInstance: dynamic_task_mapping_python_operator.process_chunk manual__2025-01-11T13:56:02.879668+00:00 map_index=0 [running]> on host 02aab7e5da88
+[2025-01-11T13:56:23.198+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dynamic_task_mapping_python_operator' AIRFLOW_CTX_TASK_ID='process_chunk' AIRFLOW_CTX_EXECUTION_DATE='2025-01-11T13:56:02.879668+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-11T13:56:02.879668+00:00'
+[2025-01-11T13:56:23.228+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-11T13:56:23.315+0000] {logging_mixin.py:190} INFO - Memproses 10 pesan. Contoh pesan: [0, 1, 2, 3, 4]...
+[2025-01-11T13:56:23.320+0000] {logging_mixin.py:190} INFO - Processing code: 0
+[2025-01-11T13:56:23.324+0000] {logging_mixin.py:190} INFO - Processing code: 1
+[2025-01-11T13:56:23.324+0000] {logging_mixin.py:190} INFO - Processing code: 2
+[2025-01-11T13:56:23.325+0000] {logging_mixin.py:190} INFO - Processing code: 3
+[2025-01-11T13:56:23.327+0000] {logging_mixin.py:190} INFO - Processing code: 4
+[2025-01-11T13:56:23.330+0000] {logging_mixin.py:190} INFO - Processing code: 5
+[2025-01-11T13:56:23.332+0000] {logging_mixin.py:190} INFO - Processing code: 6
+[2025-01-11T13:56:23.336+0000] {logging_mixin.py:190} INFO - Processing code: 7
+[2025-01-11T13:56:23.339+0000] {logging_mixin.py:190} INFO - Processing code: 8
+[2025-01-11T13:56:23.339+0000] {logging_mixin.py:190} INFO - Processing code: 9
+[2025-01-11T13:56:23.340+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-11T13:56:23.360+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-11T13:56:23.361+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dynamic_task_mapping_python_operator, task_id=process_chunk, run_id=manual__2025-01-11T13:56:02.879668+00:00, map_index=0, execution_date=20250111T135602, start_date=20250111T135620, end_date=20250111T135623
+[2025-01-11T13:56:23.477+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-11T13:56:23.532+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

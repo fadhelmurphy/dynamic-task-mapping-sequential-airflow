@@ -1,0 +1,7 @@
+pip-upgrader
+apache-airflow-providers-google==8.0.0
+gcloud-aio-storage
+gcloud-aio-pubsub
+gcloud-aio-bigquery
+asgiref
+protobuf==3.20.*

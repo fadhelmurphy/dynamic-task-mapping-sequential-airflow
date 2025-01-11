@@ -1,0 +1,17 @@
+[2025-01-11T13:17:40.998+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-11T13:17:41.013+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dynamic_task_mapping_with_fixed_chunk_size.generate_task manual__2025-01-11T13:13:48.394137+00:00 [queued]>
+[2025-01-11T13:17:41.018+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dynamic_task_mapping_with_fixed_chunk_size.generate_task manual__2025-01-11T13:13:48.394137+00:00 [queued]>
+[2025-01-11T13:17:41.019+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 2
+[2025-01-11T13:17:41.026+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): generate_task> on 2025-01-11 13:13:48.394137+00:00
+[2025-01-11T13:17:41.031+0000] {standard_task_runner.py:72} INFO - Started process 1128 to run task
+[2025-01-11T13:17:41.036+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dynamic_task_mapping_with_fixed_chunk_size', 'generate_task', 'manual__2025-01-11T13:13:48.394137+00:00', '--job-id', '822', '--raw', '--subdir', 'DAGS_FOLDER/experiments/dynamic_task_mapping_sequentials.py', '--cfg-path', '/tmp/tmpqcssnpk8']
+[2025-01-11T13:17:41.037+0000] {standard_task_runner.py:105} INFO - Job 822: Subtask generate_task
+[2025-01-11T13:17:41.077+0000] {task_command.py:467} INFO - Running <TaskInstance: dynamic_task_mapping_with_fixed_chunk_size.generate_task manual__2025-01-11T13:13:48.394137+00:00 [running]> on host 02aab7e5da88
+[2025-01-11T13:17:41.117+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dynamic_task_mapping_with_fixed_chunk_size' AIRFLOW_CTX_TASK_ID='generate_task' AIRFLOW_CTX_EXECUTION_DATE='2025-01-11T13:13:48.394137+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-11T13:13:48.394137+00:00'
+[2025-01-11T13:17:41.117+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-11T13:17:41.966+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-11T13:17:41.995+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-11T13:17:41.995+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dynamic_task_mapping_with_fixed_chunk_size, task_id=generate_task, run_id=manual__2025-01-11T13:13:48.394137+00:00, execution_date=20250111T131348, start_date=20250111T131741, end_date=20250111T131741
+[2025-01-11T13:17:42.017+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-11T13:17:42.057+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-11T13:17:42.058+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
