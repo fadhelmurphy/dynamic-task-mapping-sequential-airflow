@@ -1,7 +1,0 @@
-[2025-01-11T11:47:37.085+0000] {processor.py:186} INFO - Started process (PID=64) to work on /opt/airflow/dags/composer_idf_corp_prd/dags/idf_ext_data/idf_ext_data_kemdikbud_satpen_npsn_csv/idf_ext_data_kemdikbud_satpen_npsn_csv.py
-[2025-01-11T11:47:37.086+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/composer_idf_corp_prd/dags/idf_ext_data/idf_ext_data_kemdikbud_satpen_npsn_csv/idf_ext_data_kemdikbud_satpen_npsn_csv.py for tasks to queue
-[2025-01-11T11:47:37.090+0000] {logging_mixin.py:190} INFO - [2025-01-11T11:47:37.089+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/composer_idf_corp_prd/dags/idf_ext_data/idf_ext_data_kemdikbud_satpen_npsn_csv/idf_ext_data_kemdikbud_satpen_npsn_csv.py
-[2025-01-11T11:47:37.144+0000] {processor.py:925} INFO - DAG(s) 'idf_ext_data_kemdikbud_satpen_npsn_csv' retrieved from /opt/airflow/dags/composer_idf_corp_prd/dags/idf_ext_data/idf_ext_data_kemdikbud_satpen_npsn_csv/idf_ext_data_kemdikbud_satpen_npsn_csv.py
-[2025-01-11T11:47:37.476+0000] {logging_mixin.py:190} INFO - [2025-01-11T11:47:37.476+0000] {dag.py:3239} INFO - Sync 1 DAGs
-[2025-01-11T11:47:37.492+0000] {logging_mixin.py:190} INFO - [2025-01-11T11:47:37.491+0000] {dag.py:4180} INFO - Setting next_dagrun for idf_ext_data_kemdikbud_satpen_npsn_csv to None, run_after=None
-[2025-01-11T11:47:37.506+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/composer_idf_corp_prd/dags/idf_ext_data/idf_ext_data_kemdikbud_satpen_npsn_csv/idf_ext_data_kemdikbud_satpen_npsn_csv.py took 0.428 seconds

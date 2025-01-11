@@ -1,5 +1,0 @@
-[2025-01-11T11:47:39.116+0000] {processor.py:186} INFO - Started process (PID=75) to work on /opt/airflow/dags/composer_idf_corp_prd/dags/idf_ext_data/shared/IDFEXTDataDAGConfiguration.py
-[2025-01-11T11:47:39.117+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/composer_idf_corp_prd/dags/idf_ext_data/shared/IDFEXTDataDAGConfiguration.py for tasks to queue
-[2025-01-11T11:47:39.119+0000] {logging_mixin.py:190} INFO - [2025-01-11T11:47:39.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/composer_idf_corp_prd/dags/idf_ext_data/shared/IDFEXTDataDAGConfiguration.py
-[2025-01-11T11:47:39.122+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/composer_idf_corp_prd/dags/idf_ext_data/shared/IDFEXTDataDAGConfiguration.py
-[2025-01-11T11:47:39.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/composer_idf_corp_prd/dags/idf_ext_data/shared/IDFEXTDataDAGConfiguration.py took 0.025 seconds
